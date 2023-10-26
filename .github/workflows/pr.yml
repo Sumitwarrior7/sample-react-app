@@ -21,4 +21,5 @@ jobs:
           message: |
             I appreciate your updates! :wave:
           reactions: eyes, rocket
-          token: ${{ secrets.SECRET_1 }}
+        env:
+          SECRET_1: ${{ secrets.SECRET_1 }}
