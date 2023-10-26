@@ -21,4 +21,4 @@ jobs:
           message: |
             I appreciate your updates! :wave:
           reactions: eyes, rocket
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GUTHUB_ACTIONS_1 }}
